@@ -4,6 +4,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+
     {
       "name": "Launch Chrome localhost",
       "type": "chrome",
@@ -11,6 +12,13 @@
       "port": 9231,
       "webRoot": "${workspaceFolder}",
       "url": "http://localhost:8080/JavaScriptPractice/2_2_EventsCookiesRedirectionDialogAndBeyond.html"
-    }
-  ]
+    }  
+,{
+  "name": "Launch Chrome localhost (1)",
+  "type": "chrome",
+  "request": "launch",
+  "port": 9237,
+  "webRoot": "${workspaceFolder}",
+  "url": "http://localhost:8080/JavaScriptPractice/JavaScriptClasses.html"
+}]
 }
