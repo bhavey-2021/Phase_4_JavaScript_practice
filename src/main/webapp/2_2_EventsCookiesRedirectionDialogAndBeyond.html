@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AirthematicOperatorsAndBeyond</title>
+<script type="text/javascript">
+	function Redirect()
+	{
+		window.location = "https://www.google.co.in/";
+	}
+	function Redirect1()
+	{
+		window.location = "https://www.youtube.com/";
+	}
+	function HelloClick()
+	{
+		alert("Stop clicking me ! ");
+	}
+	function ConfirmClick()
+	{
+		var value = confirm("Are you Asmodeus ?");
+		console.log(value);
+	}
+	function Print()
+	{
+		window.print();
+	}
+</script>
+<script type="text/javascript" src="EventsCookiesRedirectionDialogAndBeyond.js"></script>
+</head>
+<body>
+<h1 onclick="Redirect()">Google ! </h1>
+<h1 onclick="Redirect1()">youtube ! </h1>
+<h1 onclick="HelloClick()">Click me too  ! </h1>
+<!--the above function opens a dilog box , cool right ?-->
+<h1 onclick="ConfirmClick()">Confirm Click  ! </h1>
+<!--the above ConfirmClick opens a dilog box with optios to click -->
+<div onclick="Print()"> Print me ! </div>
+<!--the above line of code will print the page -->
+<noscript>JS not supported</noscript>
+<!-- above line will be printed
+if JS is disabled in the computer -->
+</body>
+</html>
